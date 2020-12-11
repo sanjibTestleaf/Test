@@ -1,0 +1,17 @@
+Readme File for Framework
+Pre-requisites for framework Design design
+Properties File-How to read,How to create  and why is it used
+Object Repository-How is object repository going to be designed
+POM ,Excel storing locators,Properties,Database, Keyword driven Framework-Keyword and locators data sheet
+Extent Reports
+Jenkins INTG
+Git/Github-versioning tools for code and code version
+Java OOPS concepts
+Apache POI
+Any database INTG- JDBC driver for respective oracle,MySQL,DB's
+Utilities for common interaction with web elements in an application
+TestNG-Annotations,testng.xml,Dataprovider,Testlisteners
+Maven-Maven build tool
+Driver/WebdriverManager
+SeleniumGrid
+BaseClass

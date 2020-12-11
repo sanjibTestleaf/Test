@@ -1,0 +1,22 @@
+package testcases;
+
+import baseFramework.Baseclass;
+
+public class Testscripts {
+
+	public static void main(String Args[]){
+
+		String filepath = System.getProperty("user.dir")+"//src//config//config.properties";
+		Baseclass.initialiseProp(filepath);
+		Baseclass.readProperty("ApplicationURL");
+		System.out.println(	"Property Read:"+Baseclass.readProperty("ApplicationURL"));
+	}
+
+	
+	//TestNG-Annotations
+	
+	// Run a Test case, login to a website, 
+	// Pre-Requisite : Libraries, Selenium-Java language bnding/selenium/selenium sandalone server,chromeDriver
+	
+	
+}
